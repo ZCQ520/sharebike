@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api" />
-        <module name="common" />
-        <module name="dao" />
-        <module name="service" />
+        <module name="sharebike-api" />
+        <module name="sharebike-common" />
+        <module name="sharebike-dao" />
+        <module name="sharebike-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +18,11 @@
       <module name="dao" target="1.8" />
       <module name="service" target="1.8" />
       <module name="sharebike" target="1.8" />
+      <module name="sharebike-api" target="1.8" />
+      <module name="sharebike-common" target="1.8" />
+      <module name="sharebike-dao" target="1.8" />
+      <module name="sharebike-manage" target="1.7" />
+      <module name="sharebike-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
